@@ -44,11 +44,16 @@
   padding: 0.75rem;
   font-size: 1.5rem;
   border-radius: 0.5rem;
+  cursor: pointer;
 }
 
 .msg-container {
-  text-align: center;
-  height: 30vmin;
+  height: 100vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
 }
 
 .hide {
@@ -64,4 +69,5 @@
   padding: 0.75rem;
   font-size: 1.5rem;
   border-radius: 0.5rem;
+  cursor: pointer;
 }
